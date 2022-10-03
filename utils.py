@@ -132,7 +132,7 @@ def push_file(client_socket, client_file, src_path, path):
     file_size = os.path.getsize(src_path)
     send_int(client_socket, file_size)
     # open the desired file and sent it.
-    #######################
+    ########################
     open_file(client_socket, src_path)
 
 
